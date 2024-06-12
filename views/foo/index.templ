@@ -1,0 +1,11 @@
+package foo
+
+import (
+    "gotempl/views/layouts"
+)
+
+templ Index() {
+    @layouts.Base() {
+        <div>Hello world!</div>
+    }
+}
